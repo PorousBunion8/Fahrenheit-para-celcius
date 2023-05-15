@@ -1,0 +1,40 @@
+body {
+    background-color: #87ceeb; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  .converter {
+    margin-top: 20px;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  p#result {
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+  }
